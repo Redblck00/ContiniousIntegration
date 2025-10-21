@@ -95,7 +95,6 @@ jobs:
 
       - name: Run tests
         run: pytest
-
  notify-on-failure:
     runs-on: ubuntu-latest
     needs: test
